@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>   
+    <script src="https://cdn.tailwindcss.com"></script> 
+    <script src="https://kit.fontawesome.com/880584a1df.js" crossorigin="anonymous"></script>    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="flex flex-row bg-neutral-900
+        h-[8vh] w-full justify-between sm:justify-around items-center">
+            <div id="show" class="flex flex-row h-[14vw] w-[15vw] justify-around rounded-full sm:hidden">
+                <button type="submit" class="w-full">                    
+                        <i class="fa-solid fa-bars p-2" style="color: #ffffff;"></i>                    
+                </button>
+            </div>
+            <div id="scroll" class="sm:flex flex-row h-full w-[50vw]  justify-around hidden sm:block">
+                <button class="bg-cover p-[7px] text-xl flex h-auto w-auto rounded-[3vh] items-center
+                justify-center text-white my-auto hover:scale-125 duration-300 ease-in-out hover:bg-white hover:text-black"><a href="index.html">Inicio</a></button>
+                <button class="bg-cover p-[7px] text-xl flex h-auto w-auto rounded-[3vh] items-center
+                justify-center text-white my-auto hover:scale-125 duration-300 ease-in-out hover:bg-white hover:text-black"><a href="product.html">Productos</a></button>
+                <button id="about" class="bg-cover p-[7px] text-xl flex h-auto w-auto rounded-[3vh] items-center
+                justify-center text-white my-auto hover:scale-125 duration-300 ease-in-out hover:bg-white hover:text-black">Nosotros</button>
+            </div>
+            <div class="flex flex-row h-full sm:w-[20vw] w-[25vw] justify-around mr-2 text-xl">
+                <button type="submit" class="h-full w-full sm:hover:scale-150 duration-300 ease-in-out">                    
+                    <a href="login.html" class="h-full w-full">    
+                        <i class="fa-regular fa-user" style="color: #ffffff;"></i>
+                    </a>
+                </button>
+                <button type="submit" class="h-full w-full sm:hover:scale-150 duration-300 ease-in-out">                    
+                    <a href="cart.html" class="h-full w-full">                        
+                        <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>                    
+                    </a >
+                </a>
+                
+            </div>
+        </div>
+    </header>
+    <body>
+        <div class="slides">
+            <div class="slide slide-1">
+                <img class="lg:max-w-[50%] max-w-[100%] h-auto itemx-center mx-auto" src="https://realplaza.vtexassets.com/arquivos/ids/20644478/image-8443fb8b5ded46458b0dfb688381e0e2.jpg?v=637800313571170000" alt="">
+            </div>
+            <div class="slide slide-2">
+                <img class="lg:max-w-[50%] max-w-[100%] h-auto itemx-center mx-auto" src="https://pbs.twimg.com/media/FirM6PIXwAAROUg.jpg" alt="">
+            </div>
+            <div class="slide slide-3">
+                <img class="lg:max-w-[50%] max-w-[100%] h-auto itemx-center mx-auto" src="https://lemexico.mx/wp-content/uploads/2021/02/Senor-Cara-de-Papa.jpg" alt="">
+            </div>
+        </div>
+        <link rel="stylesheet" href="css/styles.css">
+    </body>
+    <footer id="footer" class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="imagenes/logo.jpg" alt="">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2023<b> Jugueteria</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+    <script src="func.js"></script>
+</body>
+</html>
